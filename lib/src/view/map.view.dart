@@ -59,12 +59,6 @@ class MapView extends ConsumerWidget {
                 onDragEnd: (position) async {
                   print(position.latitude);
                   print(position.longitude);
-                  // List<Placemark> placemarks = await placemarkFromCoordinates(
-                  //   value.latitude,
-                  //   value.longitude,
-                  // );
-                  // textEditingController.text =
-                  //     ' ${placemarks.reversed.last.thoroughfare}, ${placemarks.reversed.last.subLocality}   ,${placemarks.reversed.last.administrativeArea} ,${placemarks.reversed.last.postalCode} ,${placemarks.reversed.last.country}';
                 },
               ),
             },
